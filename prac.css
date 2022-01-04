@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+   
+   /* background-image:  url(p1.jpg);*/
+    
+  /* For browsers that do not support gradients */
+ 
+  /* float:left; */
+  background-image:  url(p1.png);
+  /* background-color: rgb(10, 7, 189); */
+  background-position: center;
+  background-size: cover;
+  height:109vh;
+  background-repeat: no-repeat;
+
+ 
+}
+/* .navber{
+
+    width:1200px;
+    height: 75px;
+    margin: auto;
+} */
+ .icon{
+ 
+ display: flex;
+  height:70px ;
+  
+  justify-content:space-between;
+
+} 
+
+.icon-1{
+  margin-left: 30px;
+}
+
+ .logo{
+    color:orangered;
+      font-size: 35px;
+      font-family: Arial;
+      padding-left:20px ;
+    
+      padding-top:10px;
+
+} 
+ .manu{
+margin-right: 20px;
+
+  
+ 
+}
+ul{
+  
+  display:flex;
+
+  
+}
+ ul li{ 
+
+   list-style: none;
+   margin-left:15px;
+   margin-top: 27px;
+   font-size: 16px;
+   border: 2px solid black;
+   padding: 5px 8px;
+   border-radius: 5px ;
+cursor: pointer;
+} 
+ul li a{
+    text-decoration: none;
+    color:royalblue;
+    font-family: Arial;
+    font-weight: bold;
+
+} 
+/* .link-button{
+
+  text-decoration: none;
+  background-color: rgb(50, 129, 182);
+   padding: 10px 40px;
+   border-radius: 5px;
+   background-image: linear-gradient(tomato rgb(156, 41, 95));
+   color: white;
+   font-weight: 700;
+} */
+/* .search{
+  width: 30px;
+  float: left;
+  margin-left:70px;
+  display:flex;
+  padding-left: 20%;
+  
+} */
+/* .srch{
+   font-family: 'Times New Roman';
+   font-size: 19px;
+    width:280px;
+    height:80px;
+    padding: 10px;
+    background:transparent ;
+    display:flex;
+    border-right: none;
+    color:rgba(187, 0, 8, 0.87);
+    border: 1px solid  orangered;
+    float:left;
+    border-radius: 7px;
+    position: right;
+} */
+ /* .btn{
+   width:100px;
+   height: 40px;
+   background: tomato;
+   border: 2px solid tomato;
+   color:white;
+   font-size: 19px;
+   border-top-left-radius:5px ;
+   border-bottom-right-radius: 5px;
+
+
+
+}  */
+/* 
+.cn{
+
+  text-decoration: none;
+  background-color: rgb(50, 129, 182);
+   padding: 10px 20px; 
+   border-radius: 5px;
+   background-image: linear-gradient(tomato, rgb(156, 41, 95));
+   color: white;
+   font-weight: 700;
+  
+
+
+
+}
+
+*/
+
+/* .content{
+  width: 1200px; 
+  height:auto ;
+  margin: 0%;
+  color: brown;
+  position: relative;
+
+
+
+
+} */
+ .content .par{
+ margin-top: 30px;
+ margin-left: 20px;
+ font-family: Arial;
+ letter-spacing: 1.2 px;
+ width: 50%;
+ margin-bottom: 20px;
+} 
+ .content h1{
+
+   font-family: "Times New Roman";
+   font-size:50px;
+   padding-left: 20px;
+   margin-top: 9%;
+   letter-spacing: 2px;
+   width: 50%;
+
+
+} 
+
+.content h1 span{
+  color: orange;
+}
+.cn{
+
+   padding: 10px 15px;
+  
+
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: tomato;
+margin-left: 20px;
+ }
+
+
+
+ .joinButton{
+color: white;
+text-decoration: none;
+font-family: Arial;
+
+
+ }
+/* .content .cn{
+   text-decoration: none;
+   color:darkblue;
+   transition: 3s ease;
+}
+.cn:hover{
+
+  background-color: floralwhite;
+} */
+/* .content span{
+    color:orange;
+    font-size: 60px;
+   
+
+} */
+ .form{
+   width:400px;
+   height: 330px;
+   background: linear-gradient(to top,rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%);
+   margin-top: 50px;
+   border-radius: 18px;
+   /* float: right; */
+}
+
+
+.section-1{
+  display: flex;
+}
+
+
+.form{
+  padding: 20px;
+  margin-right: 20px;
+}
+
+/* .form h2{
+   width:220;
+   font-family:serif ;
+   text-align:center ;
+   color :orangered;
+   font-size: 22px;
+   background-color:white ;
+   margin:2px;
+   padding:8px;
+
+
+} */
+ .form input{
+
+    width:240px;
+    height: 35px;
+    
+    border:3px solid gray ;
+    border-right: none;
+    border-left: none;
+    color:black;
+    font-size: 15px;
+   margin-top: 10px;
+   font-family: sans-serif;
+   padding-left: 10px;
+   border-radius: 5px;
+} 
+
+.form .link-1{
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.form .link-1 a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form .link-2
+{
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+}
+
+.sign{
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+transition: 0.3s;
+}
+
+.sign:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.form  .liw{
+  margin-top: 10px;
+
+}
+
+
+  /* .form input:focus{
+ outline: none;
+}
+::placeholder{
+  color:white;
+  font-family: Arial;
+
+
+} */
